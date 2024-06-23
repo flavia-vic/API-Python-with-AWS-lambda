@@ -21,6 +21,7 @@ companies = {
     ]
 }
 
+
 # Define uma rota para criar um novo usuário. 
 # Quando uma requisição POST é enviada para /consumers/person, esta função é chamada.
 @app.route('/consumers/person', methods=['POST'])
@@ -154,7 +155,7 @@ def get_companies():
 
 
 
-    
+
 
 # Define uma rota para obter os detalhes de uma empresa específica.
 # Quando uma requisição GET é enviada para /consumers/company/{id}, esta função é chamada.
